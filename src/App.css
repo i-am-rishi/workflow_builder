@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.box {
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.trigger {
+  background-color: white;
+}
+.end {
+  background-color: lightgray;
+}
+.line {
+  width: 2px;
+  height: 30px;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 0 5px;
+  cursor: pointer;
+}
